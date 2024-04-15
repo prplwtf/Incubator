@@ -1,0 +1,4 @@
+- name: Java
+  description: Eggs for Minecraft Java Edition.
+  id: java
+  type: category

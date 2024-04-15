@@ -1,0 +1,14 @@
+- name: Fabric
+  description: Fabric is a lightweight, experimental modding toolchain for Minecraft.
+  id: fabric
+  type: egg
+
+- name: Paper
+  description: Paper is the next generation of Minecraft server, compatible with Spigot plugins and offering uncompromising performance.
+  id: paper
+  type: egg
+
+- name: Spigot
+  description: A high performance Minecraft server implementation
+  id: spigot
+  type: egg

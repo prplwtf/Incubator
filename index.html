@@ -32,6 +32,11 @@
 
     <!-- List -->
     <div class="container">
+      <div id="BackButton" class="mb-3 d-none">
+        <a href="" id="BackButtonLink" class="link-underline-none link-danger">
+          <i class="bi bi-arrow-left"></i> Go back
+        </a>
+      </div>
       <div class="row" id="CategoryContainer"></div>
       <div class="row" id="RepositoryContainer"></div>
     </div>
@@ -55,6 +60,8 @@
 
       // category
       if(url.searchParams.get('category') != null) {
+        document.querySelector("#BackButtonLink").href = UpOneLevel(url, 'category')
+        document.querySelector("#BackButton").classList.remove("d-none")
         LoadProducts(
           `./repository/${url.searchParams.get('category')}/category.yml`,
           DisplayCategoryContent

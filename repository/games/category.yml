@@ -1,0 +1,4 @@
+- name: Minecraft
+  description: Eggs related to Minecraft.
+  id: minecraft
+  type: category

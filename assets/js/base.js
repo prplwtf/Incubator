@@ -29,3 +29,22 @@ async function RenderMarkdown(url, target) {
       console.error('Error fetching the Markdown content:', c);
     });
 }
+
+function UpOneLevel(url, param) {
+  const parsedUrl = new URL(url);
+  const params = parsedUrl.searchParams;
+  const category = params.get(param);
+  
+  if (category) {
+    const segments = category.split('/');
+    segments.pop();
+    if (segments.length > 0) {
+      params.set('category', segments.join('/'));
+    } else {
+      params.delete('category');
+    }
+  }
+  
+  parsedUrl.search = params.toString();
+  return parsedUrl.toString();
+}

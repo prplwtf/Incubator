@@ -1,0 +1,4 @@
+name: Paper
+description: Paper is the next generation of Minecraft server, compatible with Spigot plugins and offering uncompromising performance.
+readme: true
+download: egg-paper.json
