@@ -1,0 +1,9 @@
+# Software
+- name: Software
+  description: Eggs for running all kinds of software.
+  id: software
+
+# Games
+- name: Games
+  description: Pterodactyl eggs for game-servers.
+  id: games

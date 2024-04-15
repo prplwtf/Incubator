@@ -9,12 +9,15 @@
     <link href="./assets/css/base.css" rel="stylesheet">
   </head>
   <body>
+
     <!-- Navigation -->
-    <div class="container mt-5">
+    <div class="container mt-5 mb-4">
       <div class="row">
         <div class="col fw-bold h3">
-          <i class="bi bi-egg-fill"></i>
-          Incubator
+          <a href="/" class="link-underline-none text-body">
+            <i class="bi bi-egg-fill"></i>
+            Incubator
+          </a>
         </div>
         <div class="col text-end">
           <a href="https://pterodactyl.io" target="_blank" class="link-underline-none link-danger">
@@ -24,8 +27,39 @@
       </div>
     </div>
 
+    <!-- Notification -->
+    <div class="container" id="NotificationDisplay"></div>
+
+    <!-- List -->
+    <div class="container">
+      <div class="row" id="CategoryContainer"></div>
+      <div class="row" id="RepositoryContainer"></div>
+    </div>
+
     <script src="./assets/js/materialstyle.min.js"></script>
     <script src="./assets/js/mdc.ripple.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/js-yaml.min.js"></script>
+    <script src="./assets/js/base.js"></script>
+    <script src="./assets/js/products.js"></script>
+    <script>
+      var url = new URL(window.location.href)
+
+      // overview
+      if(url.searchParams.get('category') == null) {
+        LoadProducts(
+          "./repository/root.yml",
+          DisplayCategories
+        )
+      }
+
+      // category
+      if(url.searchParams.get('category') != null) {
+        LoadProducts(
+          `./repository/${url.searchParams.get('category')}/category.yml`,
+          DisplayCategoryContent
+        )
+      }
+    </script>
   </body>
 </html>

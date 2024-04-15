@@ -1,0 +1,4 @@
+name: Elasticsearch
+description: Run Elasticsearch on any machine anywhere and access it in the browser.
+readme: true
+download: egg-elasticsearch.json

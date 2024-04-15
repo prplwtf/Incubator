@@ -1,0 +1,4 @@
+name: Code-Server
+description: Run VS Code on any machine anywhere and access it in the browser.
+readme: true
+download: egg-code--server.json

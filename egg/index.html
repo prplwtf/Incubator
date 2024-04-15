@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Incubator</title>
+    <link href="../assets/css/materialstyle.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="../assets/css/base.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <div class="container mt-5 mb-4">
+      <div class="row">
+        <div class="col fw-bold h3">
+          <a href="/" class="link-underline-none text-body">
+            <i class="bi bi-egg-fill"></i>
+            Incubator
+          </a>
+        </div>
+        <div class="col text-end">
+          <a href="https://pterodactyl.io" target="_blank" class="link-underline-none link-danger">
+            Pterodactyl <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="container" id="NotificationDisplay"></div>
+
+    <!-- Description -->
+    <div class="container d-none" id="EggContainer">
+      <div id="EggInformation" class="mb-2 mt-3 rounded-3 bg-dark-subtle p-4">
+        <div class="row">
+          <div class="col-9">
+            <h4 id="EggName"></h4>
+            <p id="EggDescription" class="mb-0"></p>
+          </div>
+          <div class="col-3 align-self-center">
+            <a href="" id="EggDownload" download>
+              <button class="btn btn-danger float-end">Download</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="EggReadme" class="px-4">
+      </div>
+    </div>
+
+    <script src="../assets/js/materialstyle.min.js"></script>
+    <script src="../assets/js/mdc.ripple.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/js-yaml.min.js"></script>
+    <script src="../assets/js/marked.min.js"></script>
+    <script src="../assets/js/base.js"></script>
+    <script src="../assets/js/egg.js"></script>
+    <script>
+      var url = new URL(window.location.href)
+
+      if(url.searchParams.get('egg') == null) { Show404() }
+      else {
+        EggRender(
+          `../repository/${url.searchParams.get('egg')}/egg.yml`,
+          DisplayEggInformation
+        )
+      }
+    </script>
+  </body>
+</html>

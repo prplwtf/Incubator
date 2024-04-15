@@ -1,0 +1,26 @@
+- name: Category
+  description: Description
+  id: category
+  type: category
+
+# =======================================
+
+- name: 5e Tools
+  description: Run VS Code on any machine anywhere and access it in the browser.
+  id: 5e-tools
+  type: egg
+
+- name: Code-Server
+  description: Run VS Code on any machine anywhere and access it in the browser.
+  id: code-server
+  type: egg
+
+- name: Elasticsearch
+  description: Run Elasticsearch on any machine anywhere and access it in the browser.
+  id: elasticsearch
+  type: egg
+
+- name: Folding@Home
+  description: Folding@Home is a distributed computing project aimed at simulating protein folding and other molecular dynamics.
+  id: foldingathome
+  type: egg
