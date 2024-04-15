@@ -1,0 +1,4 @@
+name: C#
+description: Run any generic C# application.
+readme: true
+download: egg-generic-c.json

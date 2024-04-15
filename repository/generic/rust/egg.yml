@@ -1,0 +1,4 @@
+name: Rust
+description: Run any generic Rust application.
+readme: true
+download: egg-rust-generic.json

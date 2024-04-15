@@ -1,0 +1,4 @@
+name: Node.js
+description: Run any generic Node.js application.
+readme: true
+download: egg-node-js-generic.json

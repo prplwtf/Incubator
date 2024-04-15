@@ -1,10 +1,12 @@
-# Bun - JavaScript & TypeScript Generic
+# Nodemon (JavaScript & TypeScript)
 
-## From their [site](https://bun.sh/)
+Tired of manually restarting your bot? Nodemon will do it by itself.
 
-This egg is designed to run any generic Bun application, allowing users to pull their own Bun source code from a Git repository.
+Nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected. Nodemon does not require any additional changes to your code or method of development.
 
-There is an option to allow a user to upload their own files to run a server.
+This egg is designed to run any generic Javascript application, allowing users to pull their own JavaScript or TypeScript source code from a Github repository.
+
+There is an option to allow a user to upload their own files to run a bot.
 
 The startup configs and commands may need changing to actually function properly.
 

@@ -1,10 +1,8 @@
-# Bun - JavaScript & TypeScript Generic
+# Lua (Luvit) Language Generic
 
-## From their [site](https://bun.sh/)
+This egg was designed to allow a user to pull their own Lua source code from a repo and run it with Luvit.
 
-This egg is designed to run any generic Bun application, allowing users to pull their own Bun source code from a Git repository.
-
-There is an option to allow a user to upload their own files to run a server.
+There is an option to allow a user to upload their own files to run an app.
 
 The startup configs and commands may need changing to actually function properly.
 

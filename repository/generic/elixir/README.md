@@ -1,8 +1,6 @@
-# Bun - JavaScript & TypeScript Generic
+# Elixir Language Generic
 
-## From their [site](https://bun.sh/)
-
-This egg is designed to run any generic Bun application, allowing users to pull their own Bun source code from a Git repository.
+This egg is designed to run any generic Elixir application, allowing users to pull their own Elixir source code from a Git repository.
 
 There is an option to allow a user to upload their own files to run a server.
 

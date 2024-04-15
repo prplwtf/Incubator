@@ -1,10 +1,8 @@
-# Bun - JavaScript & TypeScript Generic
+# Java Language Generic
 
-## From their [site](https://bun.sh/)
+This egg is designed to run any generic Java application, allowing users to pull their own Java source code from a Github repository. This egg is also compatible with Kotlin.
 
-This egg is designed to run any generic Bun application, allowing users to pull their own Bun source code from a Git repository.
-
-There is an option to allow a user to upload their own files to run a server.
+There is an option to allow a user to upload their own files to run a bot.
 
 The startup configs and commands may need changing to actually function properly.
 

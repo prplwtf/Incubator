@@ -1,0 +1,4 @@
+name: Lua (luvit)
+description: Run any generic Lua application.
+readme: true
+download: egg-luvit-generic.json

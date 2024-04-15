@@ -2,3 +2,58 @@
   description: Run any generic Bun application.
   id: bun
   type: egg
+
+- name: C#
+  description: Run any generic C# application.
+  id: csharp
+  type: egg
+
+- name: Dart
+  description: Run any generic Dart application.
+  id: dart
+  type: egg
+
+- name: Deno
+  description: Run any generic Deno application.
+  id: deno
+  type: egg
+
+- name: Elixr
+  description: Run any generic Elixr application.
+  id: elixr
+  type: egg
+
+- name: Go
+  description: Run any generic Go application.
+  id: golang
+  type: egg
+
+- name: Java
+  description: Run any generic Java application.
+  id: java
+  type: egg
+
+- name: Lua (luvit)
+  description: Run any generic Lua application.
+  id: luvit
+  type: egg
+
+- name: Node.js
+  description: Run any generic Node.js application.
+  id: nodejs
+  type: egg
+
+- name: Nodemon
+  description: Run any generic Nodemon application.
+  id: nodemon
+  type: egg
+
+- name: Python
+  description: Run any generic Python application.
+  id: python
+  type: egg
+
+- name: Rust
+  description: Run any generic Rust application.
+  id: rust
+  type: egg
