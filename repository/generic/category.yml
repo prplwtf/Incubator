@@ -1,0 +1,4 @@
+- name: Bun
+  description: Run any generic Bun application.
+  id: bun
+  type: egg

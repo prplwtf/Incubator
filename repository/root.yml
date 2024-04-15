@@ -3,6 +3,11 @@
   description: Eggs for running all kinds of software.
   id: software
 
+# Generic
+- name: Generic
+  description: Generic language eggs.
+  id: generic
+
 # Games
 - name: Games
   description: Pterodactyl eggs for game-servers.

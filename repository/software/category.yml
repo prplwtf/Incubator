@@ -1,5 +1,5 @@
 - name: 5e Tools
-  description: Run VS Code on any machine anywhere and access it in the browser.
+  description: A suite of tools for 5th Edition Dungeons & Dragons players and Dungeon Masters.
   id: 5e-tools
   type: egg
 
@@ -26,4 +26,14 @@
 - name: Gitea
   description: Gitea is a community managed lightweight code hosting solution written in Go. It is published under the MIT license.
   id: gitea
+  type: egg
+
+- name: Grafana
+  description: The open and composable observability and data visualization platform.
+  id: grafana
+  type: egg
+
+- name: haste-server
+  description: Open source pastebin written in node.js.
+  id: haste-server
   type: egg
