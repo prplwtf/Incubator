@@ -9,3 +9,6 @@ It aims to be the replacement for other Pterodactyl egg collections and is hoste
 **Why Incubator?**\
 I've (prplwtf) created Incubator in response to the `parkervcp/eggs` repository being transferred to `pelican-eggs/eggs`.
 According to Pelican's FAQ, they plan to make eggs use YAML instead of JSON, which would make them slowly unusable on the Pterodactyl panel.
+
+**Where can I find/download eggs?**\
+You can either find/download eggs on [Incubator](https://incubator.prpl.wtf) or by browsing the [`/repository`](/repository) folder.
