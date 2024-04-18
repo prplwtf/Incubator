@@ -2,3 +2,8 @@
   description: Eggs related to Minecraft.
   id: minecraft
   type: category
+
+- name: SteamCMD
+  description: Eggs related to SteamCMD Servers.
+  id: steamcmd
+  type: category

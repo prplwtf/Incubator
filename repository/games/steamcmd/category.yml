@@ -1,0 +1,40 @@
+- name: Arma
+  description: Eggs for Arma.
+  id: arma
+  type: category
+
+- name: 7 Days To Die
+  description: 7 Days to Die is an open-world game that is a unique combination of first person shooter, survival horror, tower defense, and role-playing games.
+  id: 7_days_to_die
+  type: egg
+
+- name: ARK Survival Ascended
+  description: ARK is reimagined from the ground-up into the next-generation of video game technology with Unreal Engine 5!
+  id: ark_survival_ascended
+  type: egg
+
+- name: ARK Survival Evolved
+  description: ARK Survival Evolved is a 2015 action-adventure survival video game.
+  id: ark_survival_evolved
+  type: egg
+  
+- name: Astroneer
+  description: Astroneer is a game set during the gold rush of the 25th century.
+  id: astroneer
+  type: egg
+
+- name: Barotrauma
+  description: Barotrauma is a 2D co-op survival horror submarine simulator.
+  id: barotrauma
+  type: egg
+
+- name: Black Mesa
+  description: Black Mesa is a 2020 first-person shooter game.
+  id: black_mesa
+  type: egg
+
+- name: BATTALION Legacy
+  description: BATTALION Legacy recaptures the core of classic shooters in the final iteration of Battalion 1944.
+  id: battalion_legacy
+  type: egg
+

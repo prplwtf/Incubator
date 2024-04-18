@@ -1,0 +1,9 @@
+- name: Arma Reforger
+  description: Arma Reforger is a versatile platform for player exploration.
+  id: arma_reforger
+  type: egg
+
+- name: Arma 3
+  description: Arma 3 is an open world tactical shooter simulation video game.
+  id: arma3
+  type: egg
