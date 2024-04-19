@@ -1,0 +1,39 @@
+- name: Attack of the B Team
+  description: A very good modpack!
+  id: attack-of-the-bteam
+  type: egg
+
+- name: Blightfall
+  description: 
+  id: blightfall
+  type: egg
+
+- name: Hexxit
+  description:
+  id: hexxit
+  type: egg
+
+- name: Tekkit
+  description:
+  id: Tekkit
+  type: egg
+
+- name: Tekkit 2
+  description: 
+  id: Tekkit-2
+  type: egg
+
+- name: Tekkit classic
+  description:
+  id: tekkit-classic
+  type: egg
+
+- name: The 1.7.10 Pack
+  description: A very good modpack!
+  id: the-1-7-10-pack
+  type: egg
+
+- name: The 1.12.2 Pack
+  description:
+  id: the-1-12-2-pack
+  type: egg

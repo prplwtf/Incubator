@@ -1,0 +1,4 @@
+name: Quilt
+description: The Quilt project is an open-source, community-driven modding toolchain designed primarily for Minecraft.
+readme: true
+download: egg-quilt.json

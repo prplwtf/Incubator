@@ -1,3 +1,8 @@
+- name: Technic
+  description: Technic Eggs
+  id: technic
+  type: category
+
 - name: Fabric
   description: Fabric is a lightweight, experimental modding toolchain for Minecraft.
   id: fabric
@@ -11,4 +16,99 @@
 - name: Spigot
   description: A high performance Minecraft server implementation
   id: spigot
+  type: egg
+
+- name: NanoLimbo
+  description: A lightweight minecraft limbo server.
+  id: nanolimbo
+  type: egg
+
+- name: NeoForge  
+  description: NeoForge is a fork of Minecraft Forge for versions 1.20.1 or newer.
+  id: neoforge
+  type: egg
+
+- name: Purpur
+  description: Purpur is a drop-in replacement for Paper servers designed for configurability, and new fun and exciting gameplay features.
+  id: purpur
+  type: egg
+
+- name: Quilt
+  description: The Quilt project is an open-source, community-driven modding toolchain designed primarily for Minecraft.
+  id: quilt
+  type: egg
+
+- name: SpongeForge
+  description: SpongeForge is the implementation of the Sponge API on the Minecraft Forge platform.
+  id: spongeforge
+  type: egg
+
+- name: SpongeVanilla
+  description: A community-driven open source Minecraft Java Edition modding platform.
+  id: spongevanilla
+  type: egg
+
+- name: VanillaCord
+  description: A patch for vanilla servers to work with BungeeCord's ip_forward setting.
+  id: vanillacord
+  type: egg
+
+- name: Cuberite
+  description: A lightweight, fast and extensible game server for Minecraft
+  id: cuberite
+  type: egg
+
+- name: CurseForge
+  description: This is a generic egg for CurseForge modpacks
+  id: curseforge
+  type: egg
+
+- name: Feather
+  description: An experimental Minecraft server implementation written in Rust.
+  id: feather
+  type: egg
+
+- name: Folia
+  description: Fork of Paper which adds regionised multithreading to the dedicated server.
+  id: folia
+  type: egg
+
+- name: Forge Generic
+  description: This is a generic egg for the forge standalone server
+  id: forge
+  type: egg
+
+- name: FTB Modpacks
+  description: A generic service to pull FTB modpacks from api.modpacks.ch.
+  id: ftb
+  type: egg
+
+- name: Glowstone
+  description: Glowstone is an open-source replacement for CraftBukkit, Spigot, and Paper.
+  id: glowstone
+  type: egg
+
+- name: Krypton
+  description: A fast, lightweight Minecraft server written in Kotlin
+  id: krypton
+  type: egg
+
+- name: Limbo
+  description: Standalone server program Limbo.
+  id: limbo
+  type: egg
+
+- name: Magma
+  description: Magma is most powerful Forge server providing you with Forge mods and Bukkit Plugins using Spigot and Paper for Performance Optimization and Stability.
+  id: magma
+  type: egg
+
+- name: Modrinth Generic
+  description: This is a generic egg for Modrinth modpacks
+  id: modrinth
+  type: egg
+
+- name: Mohist
+  description: Mohist is a minecraft forge server software that implements the Paper/Spigot/Bukkit API.
+  id: mohist
   type: egg
