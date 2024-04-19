@@ -1,0 +1,19 @@
+- name: Discord
+  description: Eggs related to Discord Bots.
+  id: discord
+  type: category
+
+- name: Other
+  description: Other bots.
+  id: other
+  type: category
+
+- name: TeamSpeak 3
+  description: Eggs related to TeamSpeak 3 Bots.
+  id: teamspeak3
+  type: category
+
+- name: Twitch
+  description: Eggs related to Twitch Bots.
+  id: twitch
+  type: category

@@ -1,0 +1,4 @@
+name: CorpBot
+description: A very clumsy python bot for discord
+readme: true
+download: egg-corp-bot.json

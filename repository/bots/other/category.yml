@@ -1,0 +1,4 @@
+- name: Big Brother Bot
+  description: Big Brother Bot B3 is a complete and total server administration package for online games.
+  id: bigbrotherbot
+  type: egg

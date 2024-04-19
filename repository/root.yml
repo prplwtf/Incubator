@@ -12,3 +12,8 @@
 - name: Games
   description: Pterodactyl eggs for game-servers.
   id: games
+
+# Bots
+- name: Bots
+  description: Pterodactyl eggs for bots.
+  id: bots

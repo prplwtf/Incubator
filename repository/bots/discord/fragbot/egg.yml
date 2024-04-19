@@ -1,0 +1,4 @@
+name: Fragbot
+description: The golang based discord bot for fragforce.
+readme: true
+download: egg-fragbot.json

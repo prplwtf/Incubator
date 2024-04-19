@@ -1,0 +1,69 @@
+- name: Aoede
+  description: Aoede is a Discord music bot.
+  id: aoede
+  type: egg
+
+- name: ATLBot
+  description: Discord bot which runs on the official ATLauncher Discord server.
+  id: atlbot
+  type: egg
+
+- name: Bastion
+  description: Bastion is a multi-purpose Discord Bot.
+  id: bastion
+  type: egg
+
+- name: CorpBot
+  description: A very clumsy python bot for discord
+  id: corpbot
+  type: egg
+
+- name: Dynamica
+  description: An easy-to-use dynamic voice channel bot.
+  id: dynamica
+  type: egg
+
+- name: Fragbot
+  description: The golang based discord bot for fragforce.
+  id: fragbot
+  type: egg
+
+- name: Game Server Watcher
+  description: A simple discord/telegram/slack bot that can monitor your game servers and players in style.
+  id: game-server-watcher
+  type: egg
+
+- name: JMusicBot
+  description: A Discord music bot that's easy to set up and run yourself!
+  id: jmusicbot
+  type: egg
+
+- name: Muse
+  description: Midwestern Discord music bot that doesn't suck.
+  id: muse
+  type: egg
+
+- name: Parkertron
+  description: Purely a chatbot. Not even a smart one.
+  id: parkertron
+  type: egg
+
+- name: Pixelbot
+  description: Bot for pixelcanvas.io
+  id: pixelbot
+  type: egg
+
+- name: Redbot
+  description: A multifunction Discord bot
+  id: redbot
+  type: egg
+
+- name: Ree6
+  description: All-in-one, open source and 100% free Discord Bot! 
+  id: ree6
+  type: egg
+
+- name: SinusBot
+  description: Listen to your favorite music together with all of your friends
+  id: sinusbot
+  type: egg
