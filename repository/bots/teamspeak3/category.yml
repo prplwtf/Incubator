@@ -1,0 +1,4 @@
+- name: JTS3ServerMod
+  description: JTS3ServerMod is a Teamspeak 3 server bot written in Java language.
+  id: jts3servermod
+  type: egg
