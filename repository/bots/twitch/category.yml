@@ -1,0 +1,9 @@
+- name: PhantomBot
+  description: PhantomBot is an actively developed open source interactive Twitch bot
+  id: phantombot
+  type: egg
+
+- name: SogeBot
+  description: Free Twitch Bot built on Node.js
+  id: sogebot
+  type: egg
