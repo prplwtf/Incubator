@@ -1,0 +1,9 @@
+- name: Loki
+  description: Like Prometheus, but for logs.
+  id: loki
+  type: egg
+
+- name: Prometheus
+  description: The Prometheus monitoring system and time series database.
+  id: prometheus
+  type: egg
