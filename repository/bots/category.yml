@@ -12,3 +12,8 @@
   description: Eggs related to TeamSpeak 3 Bots.
   id: teamspeak3
   type: category
+
+- name: Twitch
+  description: Eggs related to Twitch Bots.
+  id: twitch
+  type: category
