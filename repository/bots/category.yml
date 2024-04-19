@@ -1,0 +1,4 @@
+- name: Discord
+  description: Eggs related to Discord Bots.
+  id: discord
+  type: category

@@ -1,0 +1,4 @@
+name: Game Server Watcher
+description: A simple discord/telegram/slack bot that can monitor your game servers and players in style.
+readme: true
+download: egg-game-server-watcher.json
