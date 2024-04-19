@@ -7,3 +7,8 @@
   description: Other bots.
   id: other
   type: category
+
+- name: TeamSpeak 3
+  description: Eggs related to TeamSpeak 3 Bots.
+  id: teamspeak3
+  type: category
