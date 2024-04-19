@@ -1,3 +1,8 @@
+- name: Monitoring
+  description: Eggs related to monitoring.
+  id: monitoring
+  type: category
+
 - name: 5e Tools
   description: A suite of tools for 5th Edition Dungeons & Dragons players and Dungeon Masters.
   id: 5e-tools
