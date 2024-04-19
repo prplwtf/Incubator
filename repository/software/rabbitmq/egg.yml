@@ -1,0 +1,4 @@
+name: RabbitMQ
+description: RabbitMQ is the most widely deployed open source message broker.
+readme: true
+download: egg-rabbit-m-q.json
