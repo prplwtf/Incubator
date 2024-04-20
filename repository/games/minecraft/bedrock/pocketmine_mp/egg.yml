@@ -1,0 +1,4 @@
+name: PocketMine MP
+description: A server software for Minecraft Bedrock Edition in PHP.
+readme: true
+download: egg-pocketmine-m-p.json

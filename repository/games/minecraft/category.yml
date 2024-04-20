@@ -2,3 +2,18 @@
   description: Eggs for Minecraft Java Edition.
   id: java
   type: category
+
+- name: Bedrock
+  description: Eggs for Minecraft Bedrock Edition.
+  id: bedrock
+  type: category
+
+- name: Crossplay
+  description: Eggs for Minecraft Crossplay
+  id: crossplay
+  type: category
+
+- name: Proxy
+  description: Eggs for Minecraft Server Proxies
+  id: proxy
+  type: category
