@@ -1,4 +1,5 @@
 name: Blightfall
 description:
 readme: false
-download: egg-blightfall.json
+downloads:
+  - egg-blightfall.json

@@ -1,4 +1,5 @@
 name: CurseForge Generic
 description: This is a generic egg for CurseForge modpacks
 readme: true
-download: egg-curse-forge-generic.json
+downloads:
+  - egg-curse-forge-generic.json

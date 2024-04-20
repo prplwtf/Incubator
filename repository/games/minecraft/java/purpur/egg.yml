@@ -1,4 +1,5 @@
 name: Purpur
 description: Purpur is a drop-in replacement for Paper servers designed for configurability, and new fun and exciting gameplay features.
 readme: true
-download: egg-purpur.json
+downloads:
+  - egg-purpur.json

@@ -1,4 +1,5 @@
 name: Reposilite
 description: Lightweight and easy-to-use repository management software dedicated for Maven based artifacts in the JVM ecosystem.
 readme: true
-download: egg-reposilite.json
+downloads:
+  - egg-reposilite.json

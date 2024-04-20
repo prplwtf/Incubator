@@ -1,4 +1,5 @@
 name: Lavalink
 description: Standalone audio sending node based on Lavaplayer and JDA-Audio.
 readme: true
-download: egg-lavalink.json
+downloads:
+  - egg-lavalink.json

@@ -1,4 +1,5 @@
 name: Arma 3
 description: Arma 3 is an open world tactical shooter simulation video game.
 readme: true
-download: egg-arma3.json
+downloads:
+  - egg-arma3.json

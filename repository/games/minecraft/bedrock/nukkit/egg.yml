@@ -1,4 +1,5 @@
 name: Nukkit
 description: Nukkit is a Nuclear-Powered Server Software For Minecraft Pocket Edition.
 readme: true
-download: egg-nukkit.json
+downloads:
+  - egg-nukkit.json

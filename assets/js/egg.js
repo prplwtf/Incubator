@@ -16,7 +16,23 @@ function EggRender(url, callback) {
 function DisplayEggInformation(egg) {
   document.querySelector("#EggName").innerHTML = egg.name
   document.querySelector("#EggDescription").innerHTML = egg.description
-  document.querySelector("#EggDownload").href = `../repository/${url.searchParams.get('egg')}/${egg.download}`
+
+  document.querySelector("#EggDownloadContainer").innerHTML = `
+    <div class="dropdown" id="EggDownloadDropdown">
+      <button class="btn btn-danger float-end dropdown-toggle" type="button" id="EggDropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+        Downloads
+      </button>
+      <ul class="dropdown-menu px-2" aria-labelledby="EggDropdownMenu">
+        ${egg.downloads.map(download => `
+          <li>
+            <a class="dropdown-item rounded-2" download href="../repository/${url.searchParams.get('egg')}/${download}">
+              ${download}
+            </a>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  `
 
   if(egg.readme == true) {
     RenderMarkdown(`../repository/${url.searchParams.get('egg')}/README.md`, "#EggReadme")

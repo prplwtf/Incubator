@@ -1,4 +1,5 @@
 name: Java
 description: Run any generic Java application.
 readme: true
-download: egg-java.json
+downloads:
+  - egg-java.json

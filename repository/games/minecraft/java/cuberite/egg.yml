@@ -1,4 +1,5 @@
 name: Cuberite
 description: A lightweight, fast and extensible game server for Minecraft
 readme: true
-download: egg-cuberite.json
+downloads:
+  - egg-cuberite.json

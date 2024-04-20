@@ -1,4 +1,5 @@
 name: LiteLoaderBDS
 description: LiteLoaderBDS is an unofficial plugin loader that provides basic API support for Bedrock Dedicated Server.
 readme: true
-download: egg-LiteLoader-bedrock.json
+downloads:
+  - egg-LiteLoader-bedrock.json

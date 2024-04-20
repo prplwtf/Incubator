@@ -1,4 +1,5 @@
 name: VanillaCord
 description: A patch for vanilla servers to work with BungeeCord's ip_forward setting.
 readme: true
-download: egg-vanilla-cord.json
+downloads:
+  - egg-vanilla-cord.json

@@ -1,4 +1,5 @@
 name: Nodemon
 description: Run any generic Nodemon application.
 readme: true
-download: egg-nodemon.json
+downloads:
+  - egg-nodemon.json

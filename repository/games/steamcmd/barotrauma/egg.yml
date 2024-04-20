@@ -1,4 +1,5 @@
 name: Barotrauma
 description: Barotrauma is a 2D co-op survival horror submarine simulator.
 readme: true
-download: egg-barotrauma.json
+downloads:
+  - egg-barotrauma.json

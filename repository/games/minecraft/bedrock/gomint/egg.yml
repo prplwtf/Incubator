@@ -1,4 +1,5 @@
 name: GoMint
 description: GoMint is a modern Minecraft Bedrock Edition server enabling you to make your visions come true.
 readme: true
-download: egg-go-mint.json
+downloads:
+  - egg-go-mint.json

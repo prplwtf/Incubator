@@ -1,4 +1,5 @@
 name: WaterdogPE
 description: WaterdogPE is a Minecraft Bedrock Edition proxy software developed by the developers of the old Waterdog Proxy.
 readme: true
-download: egg-waterdog-p-e.json
+downloads:
+  - egg-waterdog-p-e.json

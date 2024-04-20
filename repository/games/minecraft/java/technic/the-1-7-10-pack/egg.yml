@@ -1,4 +1,5 @@
 name: The 1.7.10 Pack
 description: A very good modpack!
 readme: true
-download: egg-the1-7-10-pack.json
+downloads:
+  - egg-the1-7-10-pack.json

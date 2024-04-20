@@ -1,4 +1,5 @@
 name: Krypton
 description: A fast, lightweight Minecraft server written in Kotlin
 readme: true
-download: egg-krypton.json
+downloads:
+  - egg-krypton.json

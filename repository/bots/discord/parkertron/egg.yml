@@ -1,4 +1,5 @@
 name: Parkertron
 description: Purely a chatbot. Not even a smart one.
 readme: true
-download: egg-parkertron.json
+downloads:
+  - egg-parkertron.json

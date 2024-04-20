@@ -1,4 +1,5 @@
 name: FTB Modpacks
 description: A generic service to pull FTB modpacks from api.modpacks.ch.
 readme: true
-download: egg-ftb-modpacksch-server.json
+downloads:
+  - egg-ftb-modpacksch-server.json

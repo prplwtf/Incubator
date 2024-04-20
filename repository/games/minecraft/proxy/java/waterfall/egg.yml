@@ -1,4 +1,5 @@
 name: Waterfall server
 description: Paper fork of the BungeeCord software, with improved Forge support and more features.
 readme: true
-download: egg-waterfall.json
+downloads:
+  - egg-waterfall.json

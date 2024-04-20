@@ -1,4 +1,5 @@
 name: Bastion
 description: Bastion is a multi-purpose Discord Bot
 readme: true
-download: egg-bastion.json
+downloads:
+  - egg-bastion.json

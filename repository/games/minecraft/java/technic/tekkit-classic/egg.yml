@@ -1,4 +1,5 @@
 name: Tekkit classic
 description:
 readme: false
-download: egg-tekkit-classic.json
+downloads:
+  - egg-tekkit-classic.json

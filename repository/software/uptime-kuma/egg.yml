@@ -1,4 +1,5 @@
 name: Uptime Kuma
 description: Uptime Kuma is an easy-to-use self-hosted monitoring tool.
 readme: true
-download: egg-uptime-kuma.json
+downloads:
+  - egg-uptime-kuma.json

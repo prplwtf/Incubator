@@ -1,4 +1,5 @@
 name: Prometheus
 description: The Prometheus monitoring system and time series database.
 readme: true
-download: egg-prometheus.json
+downloads:
+  - egg-prometheus.json

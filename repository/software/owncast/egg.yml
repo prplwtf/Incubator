@@ -1,4 +1,5 @@
 name: Owncast
 description: Owncast is a self-hosted live video and web chat server for use with existing popular broadcasting software.
 readme: true
-download: egg-owncast-online.json
+downloads:
+  - egg-owncast-online.json

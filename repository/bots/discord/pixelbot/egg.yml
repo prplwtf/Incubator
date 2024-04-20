@@ -1,4 +1,5 @@
 name: Pixelbot
 description: Bot for pixelcanvas.io
 readme: true
-download: egg-pixel-bot.json
+downloads:
+  - egg-pixel-bot.json

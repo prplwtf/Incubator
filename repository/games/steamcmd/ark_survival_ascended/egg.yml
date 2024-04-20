@@ -1,4 +1,5 @@
 name: ARK Survival Ascended
 description: ARK is reimagined from the ground-up into the next-generation of video game technology with Unreal Engine 5!
 readme: true
-download: egg-ark--survival-ascended.json
+downloads:
+  - egg-ark--survival-ascended.json

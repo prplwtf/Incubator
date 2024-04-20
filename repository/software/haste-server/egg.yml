@@ -1,4 +1,5 @@
 name: haste-server
 description: Open source pastebin written in node.js.
 readme: true
-download: egg-haste-server.json
+downloads:
+  - egg-haste-server.json
