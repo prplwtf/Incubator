@@ -2,4 +2,5 @@ name: Magma
 description: Magma is most powerful Forge server providing you with Forge mods and Bukkit Plugins using Spigot and Paper for Performance Optimization and Stability.
 readme: true
 downloads:
-  - egg-magma.json
+  - name: egg.json
+    url: egg-magma.json

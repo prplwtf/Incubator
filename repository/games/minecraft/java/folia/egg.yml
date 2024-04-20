@@ -2,4 +2,5 @@ name: Folia
 description: Fork of Paper which adds regionised multithreading to the dedicated server.
 readme: true
 downloads:
-  - egg-folia.json
+  - name: egg.json
+    url: egg-folia.json

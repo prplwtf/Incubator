@@ -2,4 +2,5 @@ name: LanguageTool
 description: LanguageTool is an Open Source proofreading software.
 readme: true
 downloads:
-  - egg-languagetool.json
+  - name: egg.json
+    url: egg-languagetool.json

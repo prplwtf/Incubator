@@ -2,4 +2,5 @@ name: Forgejo
 description: Forgejo is a community managed lightweight code hosting solution written in Go. It is published under the MIT license.
 readme: true
 downloads:
-  - egg-forgejo.json
+  - name: egg.json
+    url: egg-forgejo.json

@@ -2,4 +2,5 @@ name: Node.js
 description: Run any generic Node.js application.
 readme: true
 downloads:
-  - egg-node-js-generic.json
+  - name: egg.json
+    url: egg-node-js-generic.json

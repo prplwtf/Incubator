@@ -2,4 +2,5 @@ name: Tekkit legends
 description:
 readme: false
 downloads:
-  - egg-tekkit-legends.json
+  - name: egg.json
+    url: egg-tekkit-legends.json

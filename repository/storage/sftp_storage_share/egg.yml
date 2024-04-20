@@ -2,4 +2,5 @@ name: SFTP Storage Share
 description: Private SFTP storage share utilizing Pterodactyl's built in SFTP system for servers.
 readme: true
 downloads:
-  - egg-sftp-storage-share.json
+  - name: egg.json
+    url: egg-sftp-storage-share.json

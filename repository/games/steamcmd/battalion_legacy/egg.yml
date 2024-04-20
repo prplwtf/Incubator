@@ -2,4 +2,5 @@ name: BATTALION Legacy
 description: BATTALION Legacy recaptures the core of classic shooters in the final iteration of Battalion 1944.
 readme: true
 downloads:
-  - egg-b-a-t-t-a-l-i-o-n--legacy.json
+  - name: egg.json
+    url: egg-b-a-t-t-a-l-i-o-n--legacy.json

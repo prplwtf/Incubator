@@ -2,4 +2,5 @@ name: Glowstone
 description: Glowstone is an open-source replacement for CraftBukkit, Spigot, and Paper.
 readme: true
 downloads:
-  - egg-glowstone.json
+  - name: egg.json
+    url: egg-glowstone.json

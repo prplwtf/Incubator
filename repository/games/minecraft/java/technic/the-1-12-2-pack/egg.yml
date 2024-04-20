@@ -2,4 +2,5 @@ name: The 1.12.2 Pack
 description:
 readme: true
 downloads:
-  - egg-the1-12-2-pack.json
+  - name: egg.json
+    url: egg-the1-12-2-pack.json

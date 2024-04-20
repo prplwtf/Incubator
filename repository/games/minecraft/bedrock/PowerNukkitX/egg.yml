@@ -2,4 +2,5 @@ name:  PowerNukkitX
 description: PowerNukkitX is a software for minecraft bedrock edition in Java which is a fork of PowerNukkit
 readme: true
 downloads:
-  - egg-powernukkitx.json
+  - name: egg.json
+    url: egg-powernukkitx.json

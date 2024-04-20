@@ -2,4 +2,5 @@ name: CorpBot
 description: A very clumsy python bot for discord
 readme: true
 downloads:
-  - egg-corp-bot.json
+  - name: egg.json
+    url: egg-corp-bot.json

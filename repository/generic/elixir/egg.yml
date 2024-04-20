@@ -2,4 +2,5 @@ name: Elixr
 description: Run any generic Elixr application.
 readme: true
 downloads:
-  - egg-elixr.json
+  - name: egg.json
+    url: egg-elixr.json

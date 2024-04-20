@@ -2,4 +2,5 @@ name: Muse
 description: Muse is a highly-opinionated midwestern self-hosted Discord music bot that doesn't suck.
 readme: true
 downloads:
-  - egg-muse.json
+  - name: egg.json
+    url: egg-muse.json

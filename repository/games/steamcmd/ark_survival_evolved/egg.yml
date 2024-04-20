@@ -2,4 +2,5 @@ name: ARK Survival Evolved
 description: ARK Survival Evolved is a action-adventure survival video game.
 readme: true
 downloads:
-  - egg-ark--survival-evolved.json
+  - name: egg.json
+    url: egg-ark--survival-evolved.json

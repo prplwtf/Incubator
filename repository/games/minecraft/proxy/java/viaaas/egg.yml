@@ -2,4 +2,5 @@ name: VIAaaS
 description: VIAaaS is the Minecraft plugin ViaVersion made standalone as a proxy.
 readme: true
 downloads:
-  - egg-v-i-aaa-s.json
+  - name: egg.json
+    url: egg-v-i-aaa-s.json

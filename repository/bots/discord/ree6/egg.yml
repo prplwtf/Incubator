@@ -2,4 +2,5 @@ name: Ree6
 description: All-in-one, open source and 100% free Discord Bot! 
 readme: true
 downloads:
-  - egg-ree6.json
+  - name: egg.json
+    url: egg-ree6.json

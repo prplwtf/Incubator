@@ -2,4 +2,5 @@ name: Tekkit
 description:
 readme: true
 downloads:
-  - egg-tekkit.json
+  - name: egg.json
+    url: egg-tekkit.json

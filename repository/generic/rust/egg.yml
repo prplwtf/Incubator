@@ -2,4 +2,5 @@ name: Rust
 description: Run any generic Rust application.
 readme: true
 downloads:
-  - egg-rust-generic.json
+  - name: egg.json
+    url: egg-rust-generic.json

@@ -2,4 +2,5 @@ name: Gitea
 description: Gitea is a community managed lightweight code hosting solution written in Go. It is published under the MIT license.
 readme: true
 downloads:
-  - egg-gitea.json
+  - name: egg.json
+    url: egg-gitea.json

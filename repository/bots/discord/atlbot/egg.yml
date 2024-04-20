@@ -2,4 +2,5 @@ name: ATLBot
 description: Discord bot which runs on the official ATLauncher Discord server
 readme: true
 downloads:
-  - egg-a-t-l-bot.json
+  - name: egg.json
+    url: egg-a-t-l-bot.json

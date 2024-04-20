@@ -2,4 +2,5 @@ name: 5e Tools
 description: A suite of tools for 5th Edition Dungeons & Dragons players and Dungeon Masters.
 readme: true
 downloads:
-  - egg-5e-tools.json
+  - name: egg.json
+    url: egg-5e-tools.json

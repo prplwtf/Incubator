@@ -2,4 +2,5 @@ name: Grafana
 description: The open and composable observability and data visualization platform.
 readme: true
 downloads:
-  - egg-grafana.json
+  - name: egg.json
+    url: egg-grafana.json

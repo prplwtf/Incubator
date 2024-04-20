@@ -2,4 +2,5 @@ name: Modrinth Generic
 description: This is a generic egg for Modrinth modpacks
 readme: true
 downloads:
-  - egg-modrinth-generic.json
+  - name: egg.json
+    url: egg-modrinth-generic.json

@@ -2,4 +2,5 @@ name: SinusBot
 description: Welcome the Simple, Elegant & great sounding TS3- and Discord-Bot!
 readme: true
 downloads:
-  - egg-sinusbot.json
+  - name: egg.json
+    url: egg-sinusbot.json

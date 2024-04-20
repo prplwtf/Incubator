@@ -2,4 +2,5 @@ name: Loki
 description: Like Prometheus, but for logs.
 readme: true
 downloads:
-  - egg-loki.json
+  - name: egg.json
+    url: egg-loki.json

@@ -2,4 +2,5 @@ name: Fragbot
 description: The golang based discord bot for fragforce.
 readme: true
 downloads:
-  - egg-fragbot.json
+  - name: egg.json
+    url: egg-fragbot.json

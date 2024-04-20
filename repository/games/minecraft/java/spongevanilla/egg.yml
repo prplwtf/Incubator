@@ -2,4 +2,5 @@ name: SpongeVanilla
 description: A community-driven open source Minecraft Java Edition modding platform.
 readme: true
 downloads:
-  - egg-sponge-vanilla.json
+  - name: egg.json
+    url: egg-sponge-vanilla.json

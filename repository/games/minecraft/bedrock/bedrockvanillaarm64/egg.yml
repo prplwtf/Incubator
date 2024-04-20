@@ -2,4 +2,5 @@ name: Bedrock Vanilla ARM64
 description: The official Minecraft Bedrock (Formerly Minecraft Pocket Edition) server.
 readme: true
 downloads:
-  - egg-vanilla-bedrock-ARM64.json
+  - name: egg.json
+    url: egg-vanilla-bedrock-ARM64.json

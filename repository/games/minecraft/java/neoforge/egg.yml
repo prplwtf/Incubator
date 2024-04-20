@@ -2,4 +2,5 @@ name: NeoForge
 description: NeoForge is a fork of Minecraft Forge for versions 1.20.1 or newer.
 readme: true
 downloads:
-  - egg-neo-forge.json
+  - name: egg.json
+    url: egg-neo-forge.json

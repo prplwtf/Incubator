@@ -2,4 +2,5 @@ name: Rathole
 description: A secure, stable and high-performance reverse proxy for NAT traversal, written in Rust
 readme: true
 downloads:
-  - egg-rathole.json
+  - name: egg.json
+    url: egg-rathole.json

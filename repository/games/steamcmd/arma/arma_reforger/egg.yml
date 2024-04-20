@@ -2,4 +2,5 @@ name: Arma Reforger
 description: Arma Reforger is a versatile platform for player exploration
 readme: true
 downloads:
-  - egg-arma-reforger.json
+  - name: egg.json
+    url: egg-arma-reforger.json

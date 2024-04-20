@@ -2,4 +2,5 @@ name: PhantomBot
 description: PhantomBot is an actively developed open source interactive Twitch bot
 readme: true
 downloads:
-  - egg-phantom-bot.json
+  - name: egg.json
+    url: egg-phantom-bot.json

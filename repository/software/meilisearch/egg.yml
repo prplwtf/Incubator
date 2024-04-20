@@ -2,4 +2,5 @@ name: Meilisearch
 description: Lightning-fast, and hyper-relevant search engine that fits effortlessly into your workflow.
 readme: true
 downloads:
-  - egg-meilisearch.json
+  - name: egg.json
+    url: egg-meilisearch.json

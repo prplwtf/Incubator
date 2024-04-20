@@ -2,4 +2,5 @@ name: Forge Generic
 description: This is a generic egg for the forge standalone server
 readme: true
 downloads:
-  - egg-forge-enhanced.json
+  - name: egg.json
+    url: egg-forge-enhanced.json

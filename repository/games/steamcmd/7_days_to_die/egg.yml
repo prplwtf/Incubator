@@ -2,4 +2,5 @@ name: 7 Days To Die
 description: 7 Days to Die is an open-world game that is a unique combination of first person shooter, survival horror, tower defense, and role-playing games.
 readme: true
 downloads:
-  - egg-7-days-to-die.json
+  - name: egg.json
+    url: egg-7-days-to-die.json

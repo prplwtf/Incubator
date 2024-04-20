@@ -2,4 +2,5 @@ name: Limbo
 description: Standalone server program Limbo.
 readme: true
 downloads:
-  - egg-limbo.json
+  - name: egg.json
+    url: egg-limbo.json

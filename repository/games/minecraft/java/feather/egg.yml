@@ -2,4 +2,5 @@ name: Feather
 description: An experimental Minecraft server implementation written in Rust.
 readme: true
 downloads:
-  - egg-feather.json
+  - name: egg.json
+    url: egg-feather.json

@@ -2,4 +2,5 @@ name: Travertine server
 description: Waterfall, with additional support for Minecraft 1.7.10.
 readme: true
 downloads:
-  - egg-travertine.json
+  - name: egg.json
+    url: egg-travertine.json

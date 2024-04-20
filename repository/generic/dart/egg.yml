@@ -2,4 +2,5 @@ name: Dart
 description: Run any generic Dart application.
 readme: true
 downloads:
-  - egg-dart-generic.json
+  - name: egg.json
+    url: egg-dart-generic.json

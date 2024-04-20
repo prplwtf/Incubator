@@ -2,4 +2,5 @@ name: Deno
 description: Run any generic Deno application.
 readme: true
 downloads:
-  - egg-deno-generic.json
+  - name: egg.json
+    url: egg-deno-generic.json

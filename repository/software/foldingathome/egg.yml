@@ -2,4 +2,5 @@ name: Folding@Home
 description: Folding@Home is a distributed computing project aimed at simulating protein folding and other molecular dynamics.
 readme: true
 downloads:
-  - egg-folding--home.json
+  - name: egg.json
+    url: egg-folding--home.json

@@ -2,4 +2,5 @@ name: Black Mesa
 description: Black Mesa is a 2020 first-person shooter game.
 readme: true
 downloads:
-  - egg-black-mesa.json
+  - name: egg.json
+    url: egg-black-mesa.json

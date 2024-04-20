@@ -2,4 +2,5 @@ name: Yar
 description: Host your own web based RSS feed aggregator `yarr`.
 readme: true
 downloads:
-  - egg-yarr.json
+  - name: egg.json
+    url: egg-yarr.json

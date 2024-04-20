@@ -2,4 +2,5 @@ name: JMusicBot
 description: A Discord music bot that's easy to set up and run yourself!
 readme: true
 downloads:
-  - egg-j-music-bot.json
+  - name: egg.json
+    url: egg-j-music-bot.json

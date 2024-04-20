@@ -2,4 +2,5 @@ name: SpongeForge
 description: SpongeForge is the implementation of the Sponge API on the Minecraft Forge platform.
 readme: true
 downloads:
-  - egg-sponge-forge.json
+  - name: egg.json
+    url: egg-sponge-forge.json

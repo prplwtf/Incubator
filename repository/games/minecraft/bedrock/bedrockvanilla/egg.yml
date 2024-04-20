@@ -2,4 +2,5 @@ name: Bedrock Vanilla
 description: The official Minecraft Bedrock (Formerly Minecraft Pocket Edition) server.
 readme: true
 downloads:
-  - egg-vanilla-bedrock.json
+  - name: egg.json
+    url: egg-vanilla-bedrock.json

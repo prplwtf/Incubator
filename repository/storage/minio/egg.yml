@@ -2,4 +2,5 @@ name: MinIO S3
 description: MinIO is a High-Performance Object Storage system 
 readme: true
 downloads:
-  - egg-minio-s3.json
+  - name: egg.json
+    url: egg-minio-s3.json

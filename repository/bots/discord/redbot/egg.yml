@@ -2,4 +2,5 @@ name: Redbot
 description: A multifunction Discord bot
 readme: true
 downloads:
-  - egg-red.json
+  - name: egg.json
+    url: egg-red.json

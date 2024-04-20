@@ -2,4 +2,5 @@ name: Blightfall
 description:
 readme: false
 downloads:
-  - egg-blightfall.json
+  - name: egg.json
+    url: egg-blightfall.json

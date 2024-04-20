@@ -2,4 +2,5 @@ name: TeaSpeak
 description: TeaSpeak is a free to use client and server software for VoIP communication.
 readme: true
 downloads:
-  - egg-tea-speak.json
+  - name: egg.json
+    url: egg-tea-speak.json

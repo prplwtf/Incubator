@@ -2,4 +2,5 @@ name: SogeBot
 description: Free Twitch Bot built on Node.js
 readme: true
 downloads:
-  - egg-soge-bot.json
+  - name: egg.json
+    url: egg-soge-bot.json

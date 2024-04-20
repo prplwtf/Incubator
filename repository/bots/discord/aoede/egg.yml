@@ -2,4 +2,5 @@ name: Aoede
 description: Aoede is a Discord music bot.
 readme: true
 downloads:
-  - egg-aoede.json
+  - name: egg.json
+    url: egg-aoede.json

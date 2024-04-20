@@ -2,4 +2,5 @@ name: NanoLimbo
 description: A lightweight minecraft limbo server
 readme: true
 downloads:
-  - egg-nano-limbo.json
+  - name: egg.json
+    url: egg-nano-limbo.json

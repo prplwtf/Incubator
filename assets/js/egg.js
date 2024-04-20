@@ -25,8 +25,8 @@ function DisplayEggInformation(egg) {
       <ul class="dropdown-menu px-2" aria-labelledby="EggDropdownMenu">
         ${egg.downloads.map(download => `
           <li>
-            <a class="dropdown-item rounded-2" download href="../repository/${url.searchParams.get('egg')}/${download}">
-              ${download}
+            <a class="dropdown-item rounded-2" download href="../repository/${url.searchParams.get('egg')}/${download.url}">
+              ${download.name}
             </a>
           </li>
         `).join('')}

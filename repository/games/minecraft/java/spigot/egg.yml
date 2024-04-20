@@ -2,4 +2,5 @@ name: Spigot
 description: A high performance Minecraft server implementation
 readme: true
 downloads:
-  - egg-spigot.json
+  - name: egg.json
+    url: egg-spigot.json

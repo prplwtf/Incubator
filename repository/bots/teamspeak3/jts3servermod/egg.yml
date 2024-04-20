@@ -2,4 +2,5 @@ name: JTS3ServerMod
 description: JTS3ServerMod is a Teamspeak 3 server bot written in Java language.
 readme: true
 downloads:
-  - egg-j-t-s3-server-mod.json
+  - name: egg.json
+    url: egg-j-t-s3-server-mod.json

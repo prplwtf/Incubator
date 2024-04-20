@@ -2,4 +2,5 @@ name: Dynamica
 description: An easy-to-use dynamic voice channel bot.
 readme: true
 downloads:
-  - egg-dynamica.json
+  - name: egg.json
+    url: egg-dynamica.json

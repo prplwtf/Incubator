@@ -2,4 +2,5 @@ name: Velocity
 description: Velocity is a Minecraft server proxy with unparalleled server support, scalability, and flexibility.
 readme: true
 downloads:
-  - egg-velocity.json
+  - name: egg.json
+    url: egg-velocity.json

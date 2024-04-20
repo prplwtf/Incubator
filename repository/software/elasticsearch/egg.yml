@@ -2,4 +2,5 @@ name: Elasticsearch
 description: Run Elasticsearch on any machine anywhere and access it in the browser.
 readme: true
 downloads:
-  - egg-elasticsearch.json
+  - name: egg.json
+    url: egg-elasticsearch.json

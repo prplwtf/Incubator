@@ -2,4 +2,5 @@ name: Astroneer
 description: Astroneer is a game set during the gold rush of the 25th century.
 readme: true
 downloads:
-  - egg-astroneer-dedicated-server.json
+  - name: egg.json
+    url: egg-astroneer-dedicated-server.json

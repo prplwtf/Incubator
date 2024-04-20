@@ -2,4 +2,5 @@ name: Mohist
 description: Mohist is a minecraft forge server software that implements the Paper/Spigot/Bukkit API.
 readme: true
 downloads:
-  - egg-mohist.json
+  - name: egg.json
+    url: egg-mohist.json

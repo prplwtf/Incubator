@@ -2,4 +2,5 @@ name: Python
 description: Run any generic Python application.
 readme: true
 downloads:
-  - egg-python-generic.json
+  - name: egg.json
+    url: egg-python-generic.json

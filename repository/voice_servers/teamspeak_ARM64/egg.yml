@@ -2,4 +2,5 @@ name: TeamSpeak ARM 64
 description: TeamSpeak is a proprietary voice-over-Internet Protocol application.
 readme: true
 downloads:
-  - egg-teamspeak3-arm64-server.json
+  - name: egg.json
+    url: egg-teamspeak3-arm64-server.json

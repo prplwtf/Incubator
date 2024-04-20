@@ -2,4 +2,5 @@ name: Attack of the B Team
 description: A very good modpack!
 readme: true
 downloads:
-  - egg-attack-of-the-b--team.json
+  - name: egg.json
+    url: egg-attack-of-the-b--team.json

@@ -2,4 +2,5 @@ name: Go
 description: Run any generic Go application.
 readme: true
 downloads:
-  - egg-golang-generic.json
+  - name: egg.json
+    url: egg-golang-generic.json

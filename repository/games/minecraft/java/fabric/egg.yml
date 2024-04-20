@@ -2,4 +2,5 @@ name: Fabric
 description: Fabric is a lightweight, experimental modding toolchain for Minecraft.
 readme: true
 downloads:
-  - egg-fabric.json
+  - name: egg.json
+    url: egg-fabric.json

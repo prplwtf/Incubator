@@ -2,4 +2,5 @@ name: TS3 Manager
 description: TS3 Manager is a simple and lightwight webbased Teamspeak Webinterface.
 readme: true
 downloads:
-  - egg-t-s3-manager.json
+  - name: egg.json
+    url: egg-t-s3-manager.json

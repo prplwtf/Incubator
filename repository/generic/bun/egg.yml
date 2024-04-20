@@ -2,4 +2,5 @@ name: Bun
 description: Run any generic Bun application.
 readme: true
 downloads:
-  - egg-bun.json
+  - name: egg.json
+    url: egg-bun.json
