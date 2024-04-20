@@ -1,0 +1,14 @@
+- name: Minecraft Bedrock
+  description: Eggs for Minecraft Bedrock Proxies
+  id: bedrock
+  type: category
+
+- name: Minecraft Cross Platform
+  description: Eggs for Minecraft Cross Platform Proxies
+  id: cross_platform
+  type: category
+
+- name: Minecraft Java
+  description: Eggs for Minecraft Java Proxies
+  id: java
+  type: category

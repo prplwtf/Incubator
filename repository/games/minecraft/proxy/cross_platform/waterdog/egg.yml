@@ -1,0 +1,4 @@
+name: Waterdog
+description: Waterdog provides native support for the Minecraft Bedrock protocols along with the existing java protocols.
+readme: true
+download: egg-waterdog.json

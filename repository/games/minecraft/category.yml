@@ -12,3 +12,8 @@
   description: Eggs for Minecraft Crossplay
   id: crossplay
   type: category
+
+- name: Proxy
+  description: Eggs for Minecraft Server Proxies
+  id: proxy
+  type: category

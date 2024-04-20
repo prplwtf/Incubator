@@ -1,0 +1,19 @@
+- name: Travertine server
+  description: Waterfall, with additional support for Minecraft 1.7.10.
+  id: travertine
+  type: egg
+
+- name: Velocity
+  description: Velocity is a Minecraft server proxy with unparalleled server support, scalability, and flexibility.
+  id: velocity
+  type: egg
+
+- name: VIAaaS
+  description: VIAaaS is the Minecraft plugin ViaVersion made standalone as a proxy.
+  id: viaaas
+  type: egg
+
+- name: Waterfall server
+  description: Paper fork of the BungeeCord software, with improved Forge support and more features.
+  id: waterfall
+  type: egg
