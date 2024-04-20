@@ -1,0 +1,8 @@
+name: PostgreSQL
+description: The World's Most Advanced Open Source Relational Database
+readme: true
+downloads:
+  - name: PostgreSQL 14
+    url: egg-postgres14.json
+  - name: PostgreSQL 16
+    url: egg-postgres16.json

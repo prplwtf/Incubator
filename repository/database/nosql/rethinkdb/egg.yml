@@ -1,0 +1,6 @@
+name: Rethinkdb
+description: The open-source database for the realtime web
+readme: true
+downloads:
+  - name: Rethinkdb
+    url: egg-rethinkdb.json

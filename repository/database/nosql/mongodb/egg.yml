@@ -1,0 +1,10 @@
+name: MongoDB
+description: MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
+readme: true
+downloads:
+  - name: MongoDB
+    url: egg-mongo-d-b.json
+  - name: MongoDB 6
+    url: egg-mongo-d-b6.json
+  - name: MongoDB 7
+    url: egg-mongo-d-b7.json

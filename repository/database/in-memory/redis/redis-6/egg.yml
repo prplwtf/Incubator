@@ -1,0 +1,8 @@
+name: Redis 6
+description: Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
+readme: true
+downloads:
+  - name: Redis 6
+    url: egg-redis-6.json
+  - name: Redis 6 Config File
+    url: redis.conf

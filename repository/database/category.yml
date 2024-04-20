@@ -1,0 +1,14 @@
+- name: NoSQL Databases
+  description: Eggs related to NoSQL Databases.
+  id: nosql
+  type: category
+
+- name: In-Memory Databases
+  description: Eggs related to In-Memory Databases.
+  id: in-memory
+  type: category
+
+- name: SQL Databases
+  description: Eggs related to SQL Databases.
+  id: sql
+  type: category

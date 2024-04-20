@@ -1,0 +1,9 @@
+- name: MariaDB
+  description: One of the most popular database servers. Made by the original developers of MySQL.
+  id: mariadb
+  type: egg
+
+- name: PostgreSQL
+  description: The World's Most Advanced Open Source Relational Database
+  id: postgres
+  type: egg
