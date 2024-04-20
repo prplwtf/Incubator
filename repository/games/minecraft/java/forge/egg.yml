@@ -1,0 +1,4 @@
+name: Forge Generic
+description: This is a generic egg for the forge standalone server
+readme: true
+download: egg-forge-enhanced.json
