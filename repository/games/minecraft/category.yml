@@ -7,3 +7,8 @@
   description: Eggs for Minecraft Bedrock Edition.
   id: bedrock
   type: category
+
+- name: Crossplay
+  description: Eggs for Minecraft Crossplay
+  id: crossplay
+  type: category
