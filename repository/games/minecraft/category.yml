@@ -2,3 +2,8 @@
   description: Eggs for Minecraft Java Edition.
   id: java
   type: category
+
+- name: Bedrock
+  description: Eggs for Minecraft Bedrock Edition.
+  id: bedrock
+  type: category

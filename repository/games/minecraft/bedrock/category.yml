@@ -1,0 +1,34 @@
+- name: Bedrock Vanilla
+  description: The official Minecraft Bedrock (Formerly Minecraft Pocket Edition) server.
+  id: bedrockvanilla
+  type: egg
+
+- name: Bedrock Vanilla ARM64
+  description: The official Minecraft Bedrock (Formerly Minecraft Pocket Edition) server.
+  id: bedrockvanillaarm64
+  type: egg
+
+- name: GoMint
+  description: GoMint is a modern Minecraft Bedrock Edition server enabling you to make your visions come true.
+  id: gomint
+  type: egg
+
+- name: LiteLoaderBDS
+  description: LiteLoaderBDS is an unofficial plugin loader that provides basic API support for Bedrock Dedicated Server.
+  id: LiteLoader-bedrock
+  type: egg
+
+- name: Nukkit
+  description: Nukkit is a Nuclear-Powered Server Software For Minecraft Pocket Edition.
+  id: nukkit
+  type: egg
+
+- name: PocketMine MP
+  description: A server software for Minecraft Bedrock Edition in PHP.
+  id: pocketmine_mp
+  type: egg
+
+- name: PowerNukkitX
+  description: PowerNukkitX is a software for minecraft bedrock edition in Java which is a fork of PowerNukkit.
+  id: PowerNukkitX
+  type: egg
