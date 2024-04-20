@@ -1,0 +1,8 @@
+name: Redis 7
+description: Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
+readme: true
+downloads:
+  - name: Redis 7
+    url: egg-redis-7.json
+  - name: Redis 7 Config File
+    url: redis.conf

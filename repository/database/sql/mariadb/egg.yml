@@ -1,0 +1,8 @@
+name: MariaDB
+description: One of the most popular database servers. Made by the original developers of MySQL.
+readme: true
+downloads:
+  - name: MariaDB
+    url: egg-maria-d-b10-3.json
+  - name: MariaDB Config File
+    url: my.cnf

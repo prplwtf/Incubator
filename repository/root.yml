@@ -27,3 +27,8 @@
 - name: Storage
   description: Pterodactyl eggs for storage servers.
   id: storage
+
+# Database
+- name: Database
+  description: Pterodactyl eggs for database servers.
+  id: database

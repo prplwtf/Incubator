@@ -1,0 +1,9 @@
+- name: MongoDB
+  description: MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
+  id: mongodb
+  type: egg
+
+- name: Rethinkdb
+  description: The open-source database for the realtime web
+  id: rethinkdb
+  type: egg
