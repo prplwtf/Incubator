@@ -1,0 +1,9 @@
+- name: MinIO S3
+  description: MinIO is a High-Performance Object Storage system 
+  id: minio
+  type: egg
+
+- name: SFTP Storage Share
+  description: Private SFTP storage share utilizing Pterodactyl's built in SFTP system for servers.
+  id: sftp_storage_share
+  type: egg

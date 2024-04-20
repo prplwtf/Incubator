@@ -1,0 +1,19 @@
+- name: Lavalink
+  description: Standalone audio sending node based on Lavaplayer and JDA-Audio.
+  id: lavalink
+  type: egg
+
+- name: TeamSpeak ARM 64
+  description: TeamSpeak is a proprietary voice-over-Internet Protocol application.
+  id: teamspeak_ARM64
+  type: egg
+
+- name: TeaSpeak
+  description: TeaSpeak is a free to use client and server software for VoIP communication.
+  id: teaspeak
+  type: egg
+
+- name: TS3 Manager
+  description: TS3 Manager is a simple and lightwight webbased Teamspeak Webinterface.
+  id: ts3_manager
+  type: egg
