@@ -22,3 +22,8 @@
 - name: Voice Servers
   description: Pterodactyl eggs for voice servers.
   id: voice_servers
+
+# Storage
+- name: Storage
+  description: Pterodactyl eggs for storage servers.
+  id: storage
