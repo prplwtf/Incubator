@@ -1,0 +1,6 @@
+name: Colony Survival
+description: Colony Survival is a first-person real-time strategy voxel game created by Pipliz.
+readme: true
+downloads:
+  - name: egg.json
+    url: egg-colony-survival.json
