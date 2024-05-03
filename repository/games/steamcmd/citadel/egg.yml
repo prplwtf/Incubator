@@ -1,0 +1,6 @@
+name: Citadel Forged With Fire
+description: Citadel Forged With Fire is a massive online sandbox RPG set in the mystical world of Ignus.
+readme: true
+downloads:
+  - name: egg.json
+    url: egg-citadel-forged-with-fire.json

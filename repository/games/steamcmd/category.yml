@@ -38,3 +38,12 @@
   id: battalion_legacy
   type: egg
 
+- name: Citadel Forge with fire
+  description: Citadel Forge With Fire is a massive online sandbox RPG set in the mystical world of Ignus.
+  id: citadel
+  type: egg
+
+- name: Colony Survival
+  description: Colony Survival is a first-person real-time strategy voxel game created by Pipliz.
+  id: colony_survival
+  type: egg
