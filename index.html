@@ -1,73 +1,108 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Incubator</title>
-    <link href="./assets/css/materialstyle.min.css" rel="stylesheet">
-    <link href="./assets/css/bootstrap-icons.min.css" rel="stylesheet">
-    <link href="./assets/css/base.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Incubator</title>
+  <link href="./assets/css/materialstyle.min.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="./assets/css/base.css" rel="stylesheet">
+</head>
+<body>
 
-    <!-- Navigation -->
-    <div class="container mt-5 mb-4">
-      <div class="row">
-        <div class="col fw-bold h3">
-          <a href="/" class="link-underline-none text-body">
+  <!-- Navigation -->
+  <div class="container mt-5 mb-4">
+    <div class="row">
+      <div class="col fw-bold h3">
+        <a href="/" class="link-underline-none text-body">
             <i class="bi bi-egg-fill"></i>
             Incubator
-          </a>
-        </div>
-        <div class="col text-end">
-          <a href="https://pterodactyl.io" target="_blank" class="link-underline-none link-danger">
-            Pterodactyl <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Notification -->
-    <div class="container" id="NotificationDisplay"></div>
-
-    <!-- List -->
-    <div class="container">
-      <div id="BackButton" class="mb-3 d-none">
-        <a href="" id="BackButtonLink" class="link-underline-none link-danger">
-          <i class="bi bi-arrow-left"></i> Go back
         </a>
       </div>
-      <div class="row" id="CategoryContainer"></div>
-      <div class="row" id="RepositoryContainer"></div>
+      <div class="col text-end">
+        <a href="https://pterodactyl.io" target="_blank" class="link-underline-none link-danger">
+          Pterodactyl <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
     </div>
+  </div>
+
+  <!-- Notification -->
+  <div class="container" id="NotificationDisplay"></div>
+
+  <!-- Breadcrumb -->
+  <div class="container mb-3">
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+      <ol class="breadcrumb" id="breadcrumb">
+        <li class="breadcrumb-item "><a href="/">Home</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- List -->
+  <div class="container">
+    <div class="row" id="CategoryContainer"></div>
+    <div class="row" id="RepositoryContainer"></div>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@material/ripple@14.0.0/dist/mdc.ripple.min.js" integrity="sha384-9QANVmWxL3S8VRs8x1Q+bF1Zzogpy7P/Qw1+y5qHLdC1ig0EuoHg9VbB1SXyecdZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 
-    <script src="./assets/js/materialstyle.min.js"></script>
-    <script src="./assets/js/js-yaml.min.js"></script>
-    <script src="./assets/js/base.js"></script>
-    <script src="./assets/js/products.js"></script>
-    <script>
-      var url = new URL(window.location.href)
+  <script src="./assets/js/materialstyle.min.js"></script>
+  <script src="./assets/js/js-yaml.min.js"></script>
+  <script src="./assets/js/base.js"></script>
+  <script src="./assets/js/products.js"></script>
+  <script>
+    const url = new URL(window.location.href);
+    const breadcrumb = document.querySelector("#breadcrumb");
 
-      // overview
-      if(url.searchParams.get('category') == null) {
-        LoadProducts(
-          "./repository/root.yml",
-          DisplayCategories
-        )
-      }
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
 
-      // category
-      if(url.searchParams.get('category') != null) {
-        document.querySelector("#BackButtonLink").href = UpOneLevel(url, 'category')
-        document.querySelector("#BackButton").classList.remove("d-none")
-        LoadProducts(
-          `./repository/${url.searchParams.get('category')}/category.yml`,
-          DisplayCategoryContent
-        )
+    function updateBreadcrumb() {
+      breadcrumb.innerHTML = '<li class="breadcrumb-item"><a class="link-underline-none link-danger"  href="/">Home</a></li>';
+
+      const categoryParam = url.searchParams.get("category");
+
+      if (categoryParam) {
+        const categoryParts = categoryParam.split("/");
+
+        let accumulatedPath = "";
+        categoryParts.forEach((part, index) => {
+          accumulatedPath += (index === 0 ? "" : "/") + part;
+
+          const breadcrumbItem = document.createElement("li");
+          breadcrumbItem.classList.add("breadcrumb-item");
+
+          const capitalizedPart = capitalize(part);
+
+          if (index < categoryParts.length - 1) {
+            const link = document.createElement("a");
+            link.href = `?category=${accumulatedPath}`;
+            link.textContent = capitalizedPart;
+            breadcrumbItem.appendChild(link);
+            link.classList.add("link-underline-none", "link-danger");
+          } else {
+            breadcrumbItem.classList.add("active");
+            breadcrumbItem.setAttribute("aria-current", "page");
+            breadcrumbItem.textContent = capitalizedPart;
+          }
+
+          breadcrumb.appendChild(breadcrumbItem);
+        });
+
+        LoadProducts(`./repository/${categoryParam}/category.yml`, DisplayCategoryContent);
+      } else {
+
+        breadcrumb.innerHTML = '<li class="breadcrumb-item active" aria-current="page">Home</li>';
+
+        LoadProducts("./repository/root.yml", DisplayCategories);
       }
-    </script>
-  </body>
+    }
+
+    updateBreadcrumb();
+  </script>
+</body>
+
 </html>
